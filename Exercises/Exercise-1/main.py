@@ -14,7 +14,6 @@ download_uris = [
 
 
 def main():
-    import requests
 
 
     download_dir = Path("downloads")
