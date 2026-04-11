@@ -43,7 +43,7 @@ def main():
             zip_path.unlink()
 
         except Exception as e:
-            print("Error")
+            print(f'Following exception occur: {e}')
 
 
 if __name__ == "__main__":
